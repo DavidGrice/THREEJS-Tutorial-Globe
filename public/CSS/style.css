@@ -1,0 +1,295 @@
+* {
+   overflow: hidden;
+   margin: 0;
+   color: white; 
+}
+
+#title-box {
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 30vw;
+    height: 30vh;
+    top: 35vh;
+    left: 35vw;
+    border-style: inset;
+    border-width: 5px;
+    border-radius: 5%;
+    border-color: red;
+}
+
+#title {
+    padding-top: 5%;
+    align-self: center;
+    text-align: center;
+    font-size: 40pt;
+    width: 100%;
+    height: 50%;
+    padding-bottom: 5%;
+}
+
+#subtitle {
+    padding-top: 5%;
+    align-self: center;
+    text-align: center;
+    font-size: 30pt;
+    width: 100%;
+    height: 50%;
+    padding-bottom: 5%;
+}
+
+#instruction-box {
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    border-style: inset;
+    border-radius: 5%;
+    border-width: 5px;
+    border-color: red;
+    background-color: black;
+    position: absolute;
+    right: 5vh;
+    bottom: 5vh;
+    width: 25vw;
+    height: 20vh;
+    opacity: 85%;
+}
+
+#instruction-title {
+    align-self: center;
+    text-align: center;
+    font-size: 30pt;
+    width: 100%;
+    height: 20%;
+    font-style: oblique;
+    padding-bottom: 3%;
+    color: burlywood;
+}
+
+#instruction-body {
+    width: 100%;
+    height: 60%;
+}
+
+#instruction-body > h1 {
+    padding: 0;
+    margin: 0;
+    align-self: center;
+    text-align: center;
+    font-size: 15pt;
+    padding-bottom: 5%;
+    color: burlywood;
+}
+
+#display-box {
+    justify-items: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    border-style: inset;
+    border-width: 5px;
+    border-radius: 5%;
+    border-color: red;
+    background-color: black;
+    opacity: 80%;
+    position: absolute;
+    left: 5vh;
+    bottom: 5vh;
+    width: 15vw;
+    height: 20vh;
+}
+
+#display-box-title {
+    margin-top: 5%;
+    justify-items: center;
+    align-content: center;
+    align-self: center;
+    text-align: center;
+    width: 75%;
+    height: 15;
+    border: inset;
+    border-color: burlywood;
+    border-radius: 5%;
+    margin-bottom: 1%;
+}
+
+#country {
+    color: black;
+    font-style: oblique;
+    margin-top: 4%;
+    justify-items: center;
+    align-content: center;
+    align-self: center;
+    text-align: center;
+    width: 75%;
+    height: 30%;
+    border: inset;
+    border-color: burlywood;
+    border-radius: 5%;
+    margin-bottom: 1%;
+}
+
+#instructions {
+    color: black;
+    font-style: oblique;
+    margin-top: 4%;
+    justify-items: center;
+    align-content: center;
+    align-self: center;
+    text-align: center;
+    width: 75%;
+    height: 30%;
+    border: inset;
+    border-color: burlywood;
+    border-radius: 5%;
+}
+
+#info-box {
+    justify-items: center;
+    align-content: center;
+    display: none;
+    flex-direction: column;
+    border-style: inset;
+    border-width: 5px;
+    border-radius: 5%;
+    border-color: red;
+    background-color: black;
+    opacity: 80%;
+    position: absolute;
+    right: 5vh;
+    bottom: 40vh;
+    width: 15vw;
+    height: 50vh;
+    font-size: 9pt;
+    font-style: normal;
+}
+
+#info-title {
+    font-size: 14pt;
+    margin-top: 5%;
+    justify-items: center;
+    align-content: center;
+    align-self: center;
+    text-align: center;
+    width: 75%;
+    height: 7%;
+    border: inset;
+    border-color: burlywood;
+    border-radius: 5%;
+    margin-bottom: 2%;
+}
+
+#region {
+    font-size: 12pt;
+    margin-top: 4%;
+    justify-items: center;
+    align-content: center;
+    align-self: center;
+    text-align: left;
+    text-indent: 3%;
+    width: 75%;
+    height: 7%;
+    border: inset;
+    border-color: burlywood;
+    border-radius: 5%;
+    margin-bottom: 1%;
+}
+				
+#country-info {
+    font-size: 12pt;
+    margin-top: 3%;
+    justify-items: center;
+    align-content: center;
+    align-self: center;
+    text-align: left;
+    text-indent: 3%;
+    width: 75%;
+    height: 7%;
+    border: inset;
+    border-color: burlywood;
+    border-radius: 5%;
+    margin-bottom: 1%;
+}
+
+#language {
+    font-size: 12pt;
+    margin-top: 4%;
+    justify-items: center;
+    align-content: center;
+    align-self: center;
+    text-align: left;
+    text-indent: 3%;
+    width: 75%;
+    height: 7%;
+    border: inset;
+    border-color: burlywood;
+    border-radius: 5%;
+    margin-bottom: 1%;
+}
+    
+#population {
+    font-size: 12pt;
+    margin-top: 4%;
+    justify-items: center;
+    align-content: center;
+    align-self: center;
+    text-align: left;
+    text-indent: 3%;
+    width: 75%;
+    height: 7%;
+    border: inset;
+    border-color: burlywood;
+    border-radius: 5%;
+    margin-bottom: 1%;
+}
+    
+#area-sq-mi {
+    font-size: 12pt;
+    margin-top: 4%;
+    justify-items: center;
+    align-content: center;
+    align-self: center;
+    text-align: left;
+    text-indent: 3%;
+    width: 75%;
+    height: 7%;
+    border: inset;
+    border-color: burlywood;
+    border-radius: 5%;
+    margin-bottom: 1%;
+}
+    
+#gdp-per-capita {
+    font-size: 12pt;
+    margin-top: 4%;
+    justify-items: center;
+    align-content: center;
+    align-self: center;
+    text-align: left;
+    text-indent: 3%;
+    width: 75%;
+    height: 7%;
+    border: inset;
+    border-color: burlywood;
+    border-radius: 5%;
+    margin-bottom: 1%;
+}
+    
+#climate {
+    font-size: 12pt;
+    margin-top: 4%;
+    justify-items: center;
+    align-content: center;
+    align-self: center;
+    text-align: left;
+    text-indent: 3%;
+    width: 75%;
+    height: 7%;
+    border: inset;
+    border-color: burlywood;
+    border-radius: 5%;
+    margin-bottom: 1%;
+}
